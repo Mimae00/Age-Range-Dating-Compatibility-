@@ -8,16 +8,14 @@ public class ageRange {
         int max;
 
         if(age<=14){
-            min = (int) (age - 0.10 * age);
-            max = (int) (age + 0.10 * age);
-
+            System.out.println("Dont date yet");
         } else {
             min = (age / 2 + 7);
             max1 = (age - 7);
             max = max1 * 2;
-        }
 
-        System.out.println("Your age: " + age + "\nMinimum age: " + min + " and " + "Max age: " + max);
+            System.out.println("Your age: " + age + "\nMinimum age: " + min + " and " + "Max age: " + max);
+        }
     }
 }
 
